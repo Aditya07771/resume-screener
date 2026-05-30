@@ -6,7 +6,7 @@ import {
   FileText, Plus, ListFilter, Trash2, ArrowRight, Eye, Briefcase, 
   Users, Calendar, Search, Sparkles, Filter, CheckCircle2, AlertCircle, 
   HelpCircle, Check, ArrowDownWideNarrow, Play, ShieldCheck, Mail, Phone,
-  Github, Twitter, Linkedin, Building2, ExternalLink
+  Building2, ExternalLink, Globe, Send
 } from 'lucide-react';
 import { formatDate } from '../lib/utils/formatters';
 import { toast } from 'sonner';
@@ -625,9 +625,9 @@ export default function Home() {
                 An enterprise-grade, semantic AI recruiting assistant. Instantly parse, evaluate, and prioritize top candidate profiles with 100% objective, contextual intelligence.
               </p>
               <div className="flex items-center gap-3.5 pt-2 text-zinc-500">
-                <a href="https://twitter.com" target="_blank" rel="noopener" className="hover:text-white transition-colors"><Twitter className="h-4.5 w-4.5" /></a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener" className="hover:text-white transition-colors"><Linkedin className="h-4.5 w-4.5" /></a>
-                <a href="https://github.com" target="_blank" rel="noopener" className="hover:text-white transition-colors"><Github className="h-4.5 w-4.5" /></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener" className="hover:text-white transition-colors"><Send className="h-4.5 w-4.5" /></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" className="hover:text-white transition-colors"><Building2 className="h-4.5 w-4.5" /></a>
+                <a href="https://github.com" target="_blank" rel="noopener" className="hover:text-white transition-colors"><Globe className="h-4.5 w-4.5" /></a>
               </div>
             </div>
 
