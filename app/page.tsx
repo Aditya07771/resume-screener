@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import { formatDate } from '../lib/utils/formatters';
 import { toast } from 'sonner';
+import { Badge } from '../components/ui/badge';
 
 interface HistoricalSession {
   id: string;
